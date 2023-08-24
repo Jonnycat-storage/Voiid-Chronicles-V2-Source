@@ -1,6 +1,6 @@
 package vlc;
 
-#if (BIT_64)
+
 import cpp.Callable;
 import cpp.Function;
 import cpp.Pointer;
@@ -126,4 +126,3 @@ extern class LibVLC
 		untyped __cpp__('::delete this');
 	}
 }
-#end
